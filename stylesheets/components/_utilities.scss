@@ -1,0 +1,31 @@
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+}
+.text-vlr{
+    writing-mode: vertical-lr;
+}
+.text-vrl{
+  writing-mode: vertical-rl;
+}
+.text-md-vrl {
+  @include media-breakpoint-up(md) {
+    writing-mode: vertical-rl;
+  }
+}
+.topic-width{
+  width: 90px;
+}
+.list-reset{
+  list-style-type: none;
+  padding-left: 0;
+}
+.btn-text {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.bold-text{
+  font-weight: bold;
+}

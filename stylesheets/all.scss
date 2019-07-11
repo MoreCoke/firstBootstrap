@@ -1,0 +1,13 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//自訂元件
+@import "components/_header.scss";
+@import "components/utilities";
+@import "components/vertical-img";
+@import "components/item-card";
+@import "components/customer-info";
+@import "components/custom";
+@import "components/cart";
+@import "components/checkout";

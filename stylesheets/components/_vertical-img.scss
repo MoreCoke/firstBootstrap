@@ -1,0 +1,14 @@
+.vertical-block {
+      margin-top: -20px;
+      margin-bottom: -20px;
+  }
+.vertical-md-block {
+    @include media-breakpoint-up(md) {
+      margin-top: -20px;
+      margin-bottom: -20px;
+    }
+  }
+.image-height{
+    min-height:250px;
+    height: 100%;
+}

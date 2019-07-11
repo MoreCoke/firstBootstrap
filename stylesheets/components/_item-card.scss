@@ -1,0 +1,68 @@
+.item-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  //border: $card-border-width solid $card-border-color;
+}
+.item-img-top {
+  height: 315px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.item-badge {
+  display: flex;
+  align-items: center;
+  max-width: 36px;
+  padding: 10px;
+  background-color: theme-color("primary");
+  color: white;
+  writing-mode: vertical-lr;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+.item-heart {
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  top: 19px;
+  right: 22px;
+  //cursor: pointer;  //放這邊結果愛心沒有pointer效果
+}
+.icon-display{
+    cursor:pointer;
+    .icon-show,.item-check{
+        display:none;
+    }
+    .item-check:checked{
+        &~.icon-show{
+            display:inline-block;
+        }
+        &~.icon-hidden{
+            display: none;
+        }
+    }
+}
+.item-body {
+  display: flex;
+  border: 1px solid theme-color("secondary");
+}
+.item-text {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.item-price {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-left: 1px solid theme-color("secondary");
+  font-weight: bold;
+}
+
