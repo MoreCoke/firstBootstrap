@@ -16698,6 +16698,10 @@ header .rectangle-image {
   }
 }
 
+.vertical-content {
+  max-height: 420px;
+}
+
 .image-height {
   min-height: 250px;
   height: 100%;
